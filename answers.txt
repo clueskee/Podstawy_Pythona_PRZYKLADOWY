@@ -2,6 +2,17 @@
 
 Zadanie 1.
 
+W pythonie 2 print było metodą a w 3 jest funkcją, różnią się znacznie zapisame. Python 2 nie obsługiwał wielu znaków
+w tym polskich, 3 obsługuje unicode więc nie ma takiego problemu. Istotną różnicą jest również fakt że 2 i 3 inaczej
+obsługują dzielenie liczb całkowitych, dwójka dzieląc liczby całkowiete zwraca liczbę całkowitą np. 3 / 2 = 1(zaookrąglenie
+w dół) a 3 już tak 3 / 2 = 1.5
+
 Zadanie 2.
 
+Każdy plik .py zawierający przynajmniej jedną funkcję jest modułem. Pakiet to zbiór modułów z plikiem `__init__.py`
+w jednym katalogu, plik init.py może być pusty - informuje tylko interpreter że znajdujące się danym katalogu moduły
+stanowią pakiet.
+
 Zadanie 3.
+
+Te dwa typy to int służące do obsługi liczb całkowitych np. 4, 6, 1000 i float do liczb zmianno przecinkowych jak 1.5 10.5 itp.
